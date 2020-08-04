@@ -1,0 +1,16 @@
+{
+  "name": "dev-blog",
+  "version": "1.0.0",
+  "description": "技术博客",
+  "main": "index.js",
+  "repository": "https://github.com/liujia2002365/dev-blog.git",
+  "author": "jia <233103498@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev ../dev-blog",
+    "docs:build": "vuepress build ../dev-blog"
+  }
+}
